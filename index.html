@@ -1,4 +1,9 @@
-
+<!--
+>> Documentation for Bootstrap
+    [] Bootstrap basics
+>> Page: 17
+>> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +26,7 @@
 </head>
 
 <body>
+    <!-- Nav bar copied from Bootstrap version 5 https://getbootstrap.com/docs/5.2/customize/components/-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
@@ -63,6 +69,7 @@
         </div>
     </nav>
 
+    <!-- Jumbotron copied from Bootstrap version 5 https://getbootstrap.com/docs/5.2/customize/components/-->
     <div class="p-5 mb-4 bg-black rounded-3">
         <h1>Text to catch user attention/greeting.</h1>
         <p class="lead">lorem ipsum.</p>
@@ -72,25 +79,28 @@
         <p>Some dummy text</p>
     </div>
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- Modal copied from Bootstrap version 5 https://getbootstrap.com/docs/5.2/customize/components/-->
+    <div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                 </div>
             </div>
         </div>
