@@ -11,12 +11,21 @@
 
 body {
     background-color: rgb(72, 71, 71);
+    margin: 0px;
 }
 
-h1 {
+h1{
     color: rgb(167, 98, 232);
     text-align: center;
     border-bottom: 2px solid rgb(212, 81, 241);
+}
+
+h2{
+    color: rgb(139, 82, 192);
+    border-top: 3px dotted rgb(212, 81, 241);
+    border-bottom: 3px dotted rgb(212, 81, 241);
+    background-color: rgb(54, 54, 55);
+    margin: 10px 0px;
 }
 
 
@@ -49,5 +58,4 @@ h1 {
 
 .navbar-nav .nav-link.disabled{
     color: rgb(187, 195, 48) ;
-
 }

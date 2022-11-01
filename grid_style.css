@@ -1,0 +1,11 @@
+/*
+>> Documentation for Bootstrap
+    [] Grids
+    [] Check the grid.html file for working with grids, this CSS just makes the grid visible with borders and color
+>> Page: 18
+>> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+*/
+.col{
+    background-color: rgba(207, 218, 228, 0.1);
+    border: 2px dashed rgb(119, 102, 119);
+}
