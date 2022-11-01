@@ -4,20 +4,50 @@
 >> Page: 17
 >> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
 */
-body{
-    background-color: rgb(29, 28, 28);
+
+* {
+    color: rgb(213, 169, 203);
 }
 
+body {
+    background-color: rgb(72, 71, 71);
+}
+
+h1 {
+    color: rgb(167, 98, 232);
+    text-align: center;
+    border-bottom: 2px solid rgb(212, 81, 241);
+}
+
+
 /* Change the Bootstrap class properties to custom ones */
-.btn-info{
+.btn-info {
     background-color: blueviolet;
 }
 
-.btn-info:hover{
+.btn-info:hover {
     background-color: rgb(27, 212, 104);
     transform: scale(1.1);
 }
 
-.navbar{
-    background-color: rgb(52, 57, 68);
+.nav,
+.navbar,
+.navbar-expand-lg,
+.navbar-nav,
+.navbar-text,
+.navbar-brand,
+.navbar-color,
+.navbar-right li a,
+.nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.disabled,
+.active,
+.nav-item {
+    background-color: rgb(155, 161, 156);
+    color: rgb(242, 255, 0) ;
+}
+
+.navbar-nav .nav-link.disabled{
+    color: rgb(187, 195, 48) ;
+
 }
