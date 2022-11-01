@@ -39,6 +39,21 @@ h2{
     transform: scale(1.1);
 }
 
+.btn{
+    font-size: small;
+    color: aliceblue;
+    background-color: rgb(63, 92, 73);
+}
+
+
+.navbar-brand,
+.navbar-brand:focus
+.navbar-brand:hover
+a.navbar-brand{
+    background-color: rgb(18, 163, 163) !important;
+    border: 3px solid black;
+}
+
 .nav,
 .navbar,
 .navbar-expand-lg,
@@ -52,7 +67,7 @@ h2{
 .navbar-nav .nav-link.disabled,
 .active,
 .nav-item {
-    background-color: rgb(155, 161, 156);
+    background-color: rgb(105, 108, 105);
     color: rgb(242, 255, 0) ;
 }
 
