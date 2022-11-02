@@ -1,16 +1,74 @@
-body{
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("./imgs/Keyboard.jpg");
-    background-size:cover;
+:root {
+    --single-line-color: rgb(150, 70, 220);
 }
 
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(107, 98, 98);
+    background: url(./imgs/Keyboard.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+hr {
+    margin: 20px auto;
+    color: var(--single-line-color);
+    border: 3px solid var(--single-line-color);
+    border-radius: 300px;
+    max-width: 85px;
+    opacity: 1;
+}
+
+
+
+h1 {
+    font-size: 3em;
+    color: rgb(221, 225, 209);
+    background-color: rgba(29, 29, 29, 0.6);
+    margin: 10px auto;
+    width:80%;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 10px rgba(185, 56, 232, 0.2);
+}
+
+
+.buffer{
+    height: 2rem;
+}
+
+.navbar,
 .navbar-brand,
 .nav-link,
-.navbar-nav .nav-link.active,
-.navbar
+.navbar-nav .nav-link.active
 {
     background-color: rgb(33, 32, 32);
-    color: aliceblue;
+    color: rgb(171, 185, 197);
+}
+
+.navbar:hover,
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.btn-design{
+    font-weight: 700;
+    border-radius: 300px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    background-color:blueviolet ;
+    border: 2px solid rgb(181, 95, 210);
+}
+
+.btn-primary:hover{
+    background-color: rgb(187, 119, 251);
+    border: 2px solid rgb(137, 55, 213);
+
 }
