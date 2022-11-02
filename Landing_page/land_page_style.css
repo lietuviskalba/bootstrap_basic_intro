@@ -1,3 +1,11 @@
+/* 
+>> Documentation for Bootstrap
+    [] Landing page
+    [] See how to create a project with bootstrap
+>> Page: 19
+>> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXh2JKc71kgO7CtFawtDw/edit?skip_itp2_check=true# 
+*/
+
 :root {
     --single-line-color: rgb(150, 70, 220);
 }
@@ -8,6 +16,7 @@ html {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(107, 98, 98);
+    /* Use image as a webpage background */
     background: url(./imgs/Keyboard.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,6 +25,7 @@ html {
 }
 
 hr {
+    /* Predefined verticality with auto adjustable sides */
     margin: 20px auto;
     color: var(--single-line-color);
     border: 3px solid var(--single-line-color);
@@ -30,13 +40,16 @@ h1 {
     font-size: 3em;
     color: rgb(221, 225, 209);
     background-color: rgba(29, 29, 29, 0.6);
+    /* Margin ensures the element stays centered */
     margin: 10px auto;
+    /* Dynamically change content size */
     width:80%;
     border-radius: 100px;
+    /*box-shadow: offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px 0px 10px 10px rgba(185, 56, 232, 0.2);
 }
 
-
+/* Used to separate the header and section (line and button) elements with a space for a bigger appeal */
 .buffer{
     height: 2rem;
 }
@@ -58,6 +71,7 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+/* Custom class that changes Bootstrap button (could also directly change the native .btn-primary class) */
 .btn-design{
     font-weight: 700;
     border-radius: 300px;
@@ -66,7 +80,7 @@ h1 {
     background-color:blueviolet ;
     border: 2px solid rgb(181, 95, 210);
 }
-
+/* Manual Bootstrap button override */
 .btn-primary:hover{
     background-color: rgb(187, 119, 251);
     border: 2px solid rgb(137, 55, 213);
