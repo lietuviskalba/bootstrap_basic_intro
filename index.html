@@ -1,27 +1,29 @@
 <!--
 >> Documentation for Bootstrap
-    [] Bootstrap basics
->> Page: 17
->> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXH1JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
+    [] Landing page (index.html)
+    [] See how to create a project with bootstrap
+>> Page: 19
+>> Link to doc: https://docs.google.com/document/d/1NoFPu4Z9_kNf3hDG59YhuLVXh2JKc71kgO7CtFawtDw/edit?skip_itp2_check=true#
 -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- This attribute declares the page's character encoding. -->
     <meta charset="utf-8">
+    <!-- Mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Redirects to the landing page -->
-    <meta http-equiv="refresh" content="0; URL=https://lietuviskalba.github.io/bootstrap_basic_intro/Landing_page/landing_page.html" />
 
-    <title>Document</title>
+    <title>Landing page</title>
     <!-- CDN for CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="land_page_style.css">
+
 </head>
+
 <body>
-    <!-- Nav bar copied from Bootstrap version 5 https://getbootstrap.com/docs/5.2/customize/components/-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Navbar</a>
@@ -36,57 +38,37 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="grid.html">Bootstrap Grid</a>
+                        <a class="nav-link" href="./bootstrap_grid/grid.html">Bootstrap Grid</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Landing_page/landing_page.html">Landing page</a>
+                        <a class="nav-link" href="./bootstrap_components/components.html">Bootstrap Components</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Jumbotron copied from Bootstrap version 5 https://getbootstrap.com/docs/5.2/customize/components/-->
-    <div class="p-5 mb-4 bg-black rounded-3">
-        <h1>Text to catch user attention/greeting.</h1>
-        <p class="lead">lorem ipsum.</p>
-
-        <hr class="my-4">
-
-        <p>Some dummy text</p>
-    </div>
-
-    <!-- Modal copied from Bootstrap version 5 https://getbootstrap.com/docs/5.2/customize/components/-->
-    <div>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                </div>
-            </div>
+    <!-- container used to align items to center -->
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="row">
+            <!-- col-12 used to take up the whole row -->
+            <header class="text-center col-12">
+                <!-- text-uppercase or text-center builtin bootstrap classes -->
+                <h1 class="text-uppercase"><strong> Landing page </strong></h1>
+            </header>
+            <div class="buffer col-12"></div>
+            <section class="text-center col-12">
+                <hr>
+                <a href="./bootstrap_components/components.html">
+                    <button class="btn btn-primary btn-default"> Enter website </button>
+                </a>
+                <a href="https://mailchi.mp/047179b6cdaa/work-in-progress">
+                    <button class="btn btn-primary btn-email"> Subscribe </button>
+                </a>
+            </section>
         </div>
     </div>
 
-    <!-- CDN for JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
