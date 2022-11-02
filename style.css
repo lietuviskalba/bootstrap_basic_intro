@@ -70,7 +70,7 @@ a.navbar-brand{
     background-color: rgb(105, 108, 105);
     color: rgb(242, 255, 0) ;
 }
-
+/* The disabled link was removed with the ">> Navbar refactor" commit Nov 2, 2022 */
 .navbar-nav .nav-link.disabled{
     color: rgb(187, 195, 48) ;
 }
