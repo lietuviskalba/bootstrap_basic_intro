@@ -3,3 +3,33 @@ body, html{
     height: 100%;
     background-color: rgb(36, 35, 35);
 }
+
+p{
+    text-align: center;
+}
+
+.anim_1{
+    margin: 4rem 0.5rem;
+  
+    animation-delay: 1s;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+    
+}
+
+.anim_2{
+    margin: 4rem 0.5rem;
+  
+    animation-delay: 1s;
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s; /* don't forget to set a duration! */
+    
+}
+
+.anim_3{
+    margin: 4rem 0.5rem;
+  
+    animation-delay: 1s;
+    animation: hinge; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s; /* don't forget to set a duration! */
+}
